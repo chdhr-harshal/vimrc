@@ -133,6 +133,9 @@ endtry
 
 set background=dark
 
+" Highlight the line which contains the cursor
+set cursorline
+
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
